@@ -1,0 +1,132 @@
+
+audio{
+    margin-left: 500px;
+    margin-bottom: 00px;
+
+}
+h4{
+    font-family:Great Vibes;
+    color:red;
+	font-size:25vmin;
+	
+}
+title{
+    color:antiquewhite
+}
+.title h1 {
+	font-size: 12vmin;
+	font-weight: 900;
+	font-family: "Montserrat", sans-serif;
+	color: white;
+    margin-bottom: 150px;
+}
+h3{
+    color:white;
+    padding-left: 500px;
+    margin-top: 250px;}
+h1{
+    color:antiquewhite
+}
+p{
+    color:antiquewhite
+}
+h2{color: antiquewhite;
+padding-left: 500px;
+margin-top: 50px;
+
+}
+li{
+    color:white;
+    padding-top: 20px;
+    padding-left: 400px;
+
+}
+img{
+    padding-left: 0px;
+    width: 1310px;
+    height:1000px;
+    border: 5px solid #e7e6e6;   
+    margin-top: 100px;
+}
+video{
+    width:1310px;
+    height:750px;
+    border: 5px solid white;
+}
+body{
+    background-image:url(pexels-alex-andrews-271121-821644.jpg);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    margin-bottom:3000px;
+    min-height: 100vh;
+	display: grid;
+	place-items: center;
+
+	
+	--white: #e7e6e6;
+	background-color: var(--white);
+	/* background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png"); */
+}
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+
+.title {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.comet {
+	width: 8vmin;
+	height: 12vmin;
+	background-color: var(--white);
+	background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
+	background-image: 
+		radial-gradient(ellipse at 65% 40%,transparent 0%);
+	border-radius: 100% / 70% 70% 0% 0%;
+	transform: translateX(100em);
+	position: relative;
+	opacity: 0.9;
+	mix-blend-mode: exclusion;
+	animation: cometMove 4s ease-out infinite;
+}
+@keyframes cometMove {
+	0% {
+		transform: translateX(30em) rotateZ(-90deg);
+	}
+	100% {
+		transform: translateX(-35em) rotateZ(-90deg);
+	}
+}
+.comet div {
+	position: absolute;
+	width: 20%;
+	background-color: var(--white);
+	background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
+}
+.comet div:nth-of-type(1) {
+	height: 7vmin;
+	left: 0;
+	bottom: -6vmin;
+	border-radius: 100% / 0% 0% 50% 50%;
+}
+.comet div:nth-of-type(3) {
+	height: 4vmin;
+	left: 40%;
+	bottom: -3.95vmin;
+	border-radius: 100% / 0% 0% 60% 60%;
+	background-color: var(--white);
+}
+.comet div:nth-of-type(5) {
+	height: 3vmin;
+	left: 80%;
+	bottom: -2.9vmin;
+	border-radius: 100% / 0% 0% 70% 70%;
+	background-color: var(--white);
+}
